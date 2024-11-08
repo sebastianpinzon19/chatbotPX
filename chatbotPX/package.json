@@ -1,18 +1,17 @@
 {
-  "name": "chatbotpx",
+  "name": "chatbot",
   "version": "1.0.0",
+  "description": "Chatbot para responder preguntas sobre primeros auxilios",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "body-parser": "^1.20.3",
-    "express": "^4.21.1",
-    "mongoose": "^8.8.0",
-    "natural": "^8.0.1"
-  }
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "natural": "^5.2.0",
+    "swagger-ui-express": "^4.1.6",
+    "swagger-jsdoc": "^6.1.0"
+  },
+  "license": "MIT"
 }
